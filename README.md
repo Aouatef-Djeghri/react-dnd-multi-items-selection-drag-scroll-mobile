@@ -2,9 +2,9 @@
 
 ### This repo implements :  
 #### - Multiple selection drag and drop on desktop and mobile using the react-dnd library and react hooks.
-#### - Card rotation
-#### - Card deletion
-#### - Card rearranging 
+#### - Cards rotation
+#### - Cards deletion
+#### - Cards rearranging 
 
 ### Thank you
 - https://github.com/react-dnd/react-dnd
