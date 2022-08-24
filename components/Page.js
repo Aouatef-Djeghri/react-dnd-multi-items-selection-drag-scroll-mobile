@@ -98,13 +98,13 @@ const Page = React.memo(function Card(props) {
     });
   }, []);
 
-  const opacity = isDragging ? 0.4 : 1;
+  const opacity = isDragging ? 0.5 : 1;
 
   const borderLeft =
-    props.insertLineOnLeft && hovered ? "2px solid #8d4688" : null;
+    props.insertLineOnLeft && hovered ? "2px solid #3a0ca3" : null;
 
   const borderRight =
-    props.insertLineOnRight && hovered ? "2px solid #8d4688" : null;
+    props.insertLineOnRight && hovered ? "2px solid #3a0ca3" : null;
 
   return (
     <div
