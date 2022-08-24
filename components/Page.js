@@ -107,21 +107,19 @@ const Page = React.memo(function Card(props) {
     props.insertLineOnRight && hovered ? "2px solid #8d4688" : null;
 
   return (
-    <>
-      <div
-        className={`preview  ${props.isSelected ? "selected" : ""} `}
-        ref={ref}
-        onClick={onClick}
-        style={{ opacity, borderLeft, borderRight }}
-        id={props.id}
-        data-id={props.id}
-        data-index={props.index}
-        data-page-rotation={props.rotation}
-        data-page-number="1"
-      >
-        <PageContent content={props.content} />
-      </div>
-    </>
+    <div
+      className={`preview ${props.isSelected ? "selected" : ""}`}
+      ref={ref}
+      onClick={onClick}
+      style={{ opacity, borderLeft, borderRight }}
+      id={props.id}
+      data-id={props.id}
+      data-index={props.index}
+      data-page-rotation={props.rotation}
+      data-page-number="1"
+    >
+      <PageContent content={props.content} />
+    </div>
   );
 });
 

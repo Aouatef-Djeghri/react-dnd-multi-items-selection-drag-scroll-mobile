@@ -38,6 +38,11 @@ body,
     margin-left: 0px;
     margin-right: 0px;
   }
+
+  .page-content{
+    height: 140px !important;
+    width: 100px !important;
+  }
 }
 @media (min-width: 768px) {
   .preview {

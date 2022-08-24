@@ -466,7 +466,7 @@ const Home = React.memo(function Home() {
         className="panel nav-container sticky-top sticky-top-border"
         ref={jsStickyTop}
       >
-        <div className="panel__inner d-flex align-items-center justify-content-end justify-content-md-center ">
+        <div className="panel__inner d-flex align-items-center justify-content-center">
           <button
             className="btn btn-normal mr-5"
             onClick={() => {
