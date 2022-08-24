@@ -104,7 +104,7 @@ body,
   width: 130px;
   display: flex;
   justify-content: center;
-  background-color: #4cc9f0;
+  background-color: #fff;
   align-items: center;
   color: #4361ee;
   border: 4px solid #4361ee;
@@ -167,10 +167,6 @@ body,
 
 .sticky-top-border {
   border-radius: 16px 16px 0 0;
-}
-
-.sticky-top-border-b {
-  border-radius: 0 0 16px 16px;
 }
 
 .panel__inner {
